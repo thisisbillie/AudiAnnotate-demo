@@ -2,12 +2,12 @@
     "@context": "http://iiif.io/api/presentation/3/context.json",
     "id": "https://thisisbillie.github.io/AudiAnnotate-demo/gertrude-stein-read-by-gertrude-stein/manifest.json",
     "type": "Manifest",
-    "label": { "en": [ "Gertrude Stein Read By Gertrude Stein" ] },
+    "label": { "en": [ "Billie Eilish begint aan haar set op Pukkelpop" ] },
     "items": [
       {
         "id": "https://thisisbillie.github.io/AudiAnnotate-demo/gertrude-stein-read-by-gertrude-stein/canvas-1/canvas",
         "type": "Canvas",
-        "duration": 30.0,
+        "duration": 37.0,
         "items": [
           {
             "id": "https://thisisbillie.github.io/AudiAnnotate-demo/gertrude-stein-read-by-gertrude-stein/canvas-1/paintings",
@@ -18,8 +18,10 @@
                 "type": "Annotation",
                 "motivation": "painting",
                 "body": {
-                  "id": "",
-                    "duration": 30.0
+                  "id": "https://ia801704.us.archive.org/17/items/hln-11985b59-5e73-4327-8418-21e211257b66/11985b59-5e73-4327-8418-21e211257b66.mp4",
+                    "type": "Video",
+                    "format": "video/mp4",
+                    "duration": 37.0
                 },
                 "target": "https://thisisbillie.github.io/AudiAnnotate-demo/gertrude-stein-read-by-gertrude-stein/canvas-1/canvas"
               }

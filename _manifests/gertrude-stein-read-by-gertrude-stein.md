@@ -1,6 +1,6 @@
 ---
 layout: manifest
-title: Gertrude Stein Read By Gertrude Stein
+title: Billie Eilish begint aan haar set op Pukkelpop
 manifest_name: gertrude-stein-read-by-gertrude-stein
 
 ---
