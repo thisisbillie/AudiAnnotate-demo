@@ -8,6 +8,32 @@
         "id": "https://thisisbillie.github.io/AudiAnnotate-demo/test-video/canvas-1/canvas",
         "type": "Canvas",
         "duration": 213.0,
+        "annotations": [
+          
+          {
+            "type": "AnnotationPage",
+            "id": "https://thisisbillie.github.io/AudiAnnotate-demo/annotations/test-video-canvas-1-transcript.json",
+            "label": {
+              "none": ["Transcript"]
+            }
+          }
+          ,
+          {
+            "type": "AnnotationPage",
+            "id": "https://thisisbillie.github.io/AudiAnnotate-demo/annotations/test-video-canvas-1-background-noise.json",
+            "label": {
+              "none": ["Background Noise"]
+            }
+          }
+          ,
+          {
+            "type": "AnnotationPage",
+            "id": "https://thisisbillie.github.io/AudiAnnotate-demo/annotations/test-video-canvas-1-visual-cues.json",
+            "label": {
+              "none": ["Visual Cues"]
+            }
+          }
+        ],
         "items": [
           {
             "id": "https://thisisbillie.github.io/AudiAnnotate-demo/test-video/canvas-1/paintings",

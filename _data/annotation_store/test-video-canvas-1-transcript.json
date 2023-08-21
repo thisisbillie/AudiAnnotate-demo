@@ -1,0 +1,30 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://thisisbillie.github.io/AudiAnnotate-demo/annotations/test-video-canvas-1-transcript.json",
+  "type": "AnnotationPage",
+  "label": "Transcript",
+  "items": [
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "id": "test-video-canvas-1-transcript-annotation-0.json",
+      "type": "Annotation",
+      "motivation": [
+        "supplementing",
+        "commenting"
+      ],
+      "body": {
+        "type": "TextualBody",
+        "value": "What about that ",
+        "format": "text/plain",
+        "purpose": "commenting"
+      },
+      "target": {
+        "source": "https://thisisbillie.github.io/AudiAnnotate-demo/test-video/canvas-1/canvas",
+        "selector": {
+          "type": "PointSelector",
+          "t": "50"
+        }
+      }
+    }
+  ]
+}

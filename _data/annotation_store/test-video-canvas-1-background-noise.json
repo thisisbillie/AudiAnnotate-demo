@@ -1,0 +1,52 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://thisisbillie.github.io/AudiAnnotate-demo/annotations/test-video-canvas-1-background-noise.json",
+  "type": "AnnotationPage",
+  "label": "Background Noise",
+  "items": [
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "id": "test-video-canvas-1-background-noise-annotation-0.json",
+      "type": "Annotation",
+      "motivation": [
+        "supplementing",
+        "commenting"
+      ],
+      "body": {
+        "type": "TextualBody",
+        "value": "Someone coughs",
+        "format": "text/plain",
+        "purpose": "commenting"
+      },
+      "target": {
+        "source": "https://thisisbillie.github.io/AudiAnnotate-demo/test-video/canvas-1/canvas",
+        "selector": {
+          "type": "RangeSelector",
+          "t": "30,50"
+        }
+      }
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "id": "test-video-canvas-1-background-noise-annotation-1.json",
+      "type": "Annotation",
+      "motivation": [
+        "supplementing",
+        "commenting"
+      ],
+      "body": {
+        "type": "TextualBody",
+        "value": "Someone walks",
+        "format": "text/plain",
+        "purpose": "commenting"
+      },
+      "target": {
+        "source": "https://thisisbillie.github.io/AudiAnnotate-demo/test-video/canvas-1/canvas",
+        "selector": {
+          "type": "PointSelector",
+          "t": "4850.0"
+        }
+      }
+    }
+  ]
+}

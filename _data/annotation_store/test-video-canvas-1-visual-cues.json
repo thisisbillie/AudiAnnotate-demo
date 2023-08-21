@@ -1,0 +1,52 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://thisisbillie.github.io/AudiAnnotate-demo/annotations/test-video-canvas-1-visual-cues.json",
+  "type": "AnnotationPage",
+  "label": "Visual Cues",
+  "items": [
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "id": "test-video-canvas-1-visual-cues-annotation-0.json",
+      "type": "Annotation",
+      "motivation": [
+        "supplementing",
+        "commenting"
+      ],
+      "body": {
+        "type": "TextualBody",
+        "value": "The curtain closes",
+        "format": "text/plain",
+        "purpose": "commenting"
+      },
+      "target": {
+        "source": "https://thisisbillie.github.io/AudiAnnotate-demo/test-video/canvas-1/canvas",
+        "selector": {
+          "type": "RangeSelector",
+          "t": "90.0,118.0"
+        }
+      }
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "id": "test-video-canvas-1-visual-cues-annotation-1.json",
+      "type": "Annotation",
+      "motivation": [
+        "supplementing",
+        "commenting"
+      ],
+      "body": {
+        "type": "TextualBody",
+        "value": "Someone opens the door",
+        "format": "text/plain",
+        "purpose": "commenting"
+      },
+      "target": {
+        "source": "https://thisisbillie.github.io/AudiAnnotate-demo/test-video/canvas-1/canvas",
+        "selector": {
+          "type": "PointSelector",
+          "t": "5530"
+        }
+      }
+    }
+  ]
+}
